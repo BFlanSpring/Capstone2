@@ -1,0 +1,17 @@
+
+.CompanyCard-card{
+    text-decoration: none;
+  }
+.card-body{
+    background-color: rgb(255, 255, 255);
+    margin-left: 13rem;
+    margin-right:13rem;
+    border-radius: 6px;
+
+}
+  
+.CompanyList{
+    background-image: url(/src/images/StockBackground1.avif);
+    background-size: fill;
+    background-attachment: fixed;
+}

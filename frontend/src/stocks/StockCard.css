@@ -1,0 +1,32 @@
+.stock-card-body{
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1);
+    transition: transform 0.3s ease;
+    margin-left: 13rem;
+    margin-right:13rem; 
+    border-radius: 6px;
+}
+
+.stock-card-body:hover {
+    transform: scale(1.05); 
+
+}
+
+.stock-card-title{
+    text-align: left;
+    text-decoration: none;
+    margin: 15px;
+    font: initial;
+
+}
+
+.stock-card-text{
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-evenly;
+    font: initial;
+}
+.StockCard-card{
+    text-decoration: none;
+}

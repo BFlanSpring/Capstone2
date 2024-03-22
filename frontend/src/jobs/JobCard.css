@@ -1,0 +1,20 @@
+.JobCard {
+    max-height: 250px;
+    margin-bottom: 1rem;
+    color: inherit;
+    border-radius: 0;
+    border: none;
+  }
+  
+  
+  .JobList {
+    background-image: url('/src/images/StockBackground1.avif');
+    background-size: cover;
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+
+  }
+  
+
+.card-body{
+  text-decoration: none;
+}

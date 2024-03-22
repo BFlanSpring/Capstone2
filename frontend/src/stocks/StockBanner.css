@@ -1,0 +1,87 @@
+
+.stock-banner {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .stock-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    width: 20rem; 
+    margin-right: 20px; 
+    padding: 10px;
+    background-color: #fff;
+    animation: moveBanner 35s linear infinite running;
+
+  }
+  
+  @keyframes moveBanner {
+    from {
+      transform: translateX(-370vh);
+    }
+    to {
+      transform: translateX(200vh); 
+    }
+  }
+  
+  
+  .ticker {
+    font-weight: bold;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: 5px;
+    justify-content: center;
+  }
+  
+  .price{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-size: 1.3rem;
+  }
+  #change-percentage {
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+  
+.change-amount{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+
+
+.ticker {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .arrow-up {
+    color: green;
+  }
+  
+  .arrow-down {
+    color: red;
+  }
+  
+  .arrow {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    font-size: 2rem;
+  }
+  
+.stockItem-link,
+.stockItem-link:link,
+.stockItem-link:visited,
+.stockItem-link:hover,
+.stockItem-link:active {
+  color: inherit;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+
+}

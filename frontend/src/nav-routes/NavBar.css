@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+}
+
+.NavBar {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.NavItem {
+  margin-right: 15px;
+}
+
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+  color: #262525;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.Navigation {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-bottom-left-radius: 10px; 
+  border-bottom-right-radius: 10px; 
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  color: #007bff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navItem:last-child {
+  margin-right: 0; 
+}
+
+.navItem.logout {
+  margin-left: auto; 
+} 
