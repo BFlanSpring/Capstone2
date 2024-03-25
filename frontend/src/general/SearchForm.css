@@ -20,15 +20,9 @@
 .SearchForm{
   display: flex;
   justify-content: center;
-  
-
-
-  background-image: url(/src/images/StockBackground1.avif);
-    
   background-size:cover;
   background-repeat: no-repeat; 
-  width: 100vw;
-  height: 100vh;
+
 
 
 }
